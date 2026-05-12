@@ -1,0 +1,247 @@
+[
+  {
+    "monumentName": "Amber Fort",
+    "img": "https://images.unsplash.com/photo-1718528565888-18e2d9239b82?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGFtYmVyJTIwZm9ydHxlbnwwfHwwfHx8MA%3D%3D",
+    "description": "A majestic fort in Jaipur known for its artistic blend of Rajput and Mughal architecture.",
+    "price": "100",
+    "location": "https://www.google.com/maps?q=Amber+Fort+Jaipur",
+    "exampleImg": [
+      "https://plus.unsplash.com/premium_photo-1661963054563-ce928e477ff3?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW1iZXIlMjBmb3J0fGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1649074705058-9d1579429e37?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFtYmVyJTIwZm9ydHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1682321136734-8cc95d0912be?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGFtYmVyJTIwZm9ydHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW1iZXIlMjBmb3J0fGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1649073868642-bcbbd06239d8?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YW1iZXIlMjBmb3J0fGVufDB8fDB8fHww"
+    ],
+    "hotelName": ["Trident Jaipur", "Umaid Bhawan", "Jai Mahal Palace"],
+    "hotelLink": [
+      "https://www.tridenthotels.com",
+      "https://www.umaidbhawan.com",
+      "https://www.tajhotels.com"
+    ],
+    "hospitalName": [
+    "Krishna Hospital",
+    "Bharat Hospital",
+    "Gangori Hospital"
+],
+    "hospitalLink": [
+      "https://maps.google.com/?q=Krishna+Hospital+Amer+Jaipur",
+      "https://maps.google.com/?q=Bharat+Hospital+Jaipur",
+      "https://maps.google.com/?q=Gangori+Hospital+Jaipur"
+    ],
+    "id": 2
+  },
+  {
+    "monumentName": "Mehrangarh Fort",
+    "img": "https://images.unsplash.com/photo-1566873535350-a3f5d4a804b7?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWVocmFuZ2FyaCUyMEZvcnR8ZW58MHx8MHx8fDA%3D",
+    "description": "One of the largest forts in India located in Jodhpur with breathtaking views.",
+    "price": "120",
+    "location": "https://www.google.com/maps?q=Mehrangarh+Fort",
+    "exampleImg": [
+      "https://images.unsplash.com/photo-1714893520131-4fb6dd335e83?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWVocmFuZ2FyaCUyMEZvcnR8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1580389672842-9755d100d18e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8TWVocmFuZ2FyaCUyMEZvcnR8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1700755861933-650620041fda?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fE1laHJhbmdhcmglMjBGb3J0fGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1586228165867-6e16b83592a0?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fE1laHJhbmdhcmglMjBGb3J0fGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1697730388194-0f8f7943dbad?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8TWVocmFuZ2FyaCUyMEZvcnR8ZW58MHx8MHx8fDA%3D"
+    ],
+    "hospitalName": [
+    "Medipulse Hospital",
+    "Marwar Hospital",
+    "Military Hospital Jodhpur"
+],
+
+    "hospitalLink": [
+      "https://maps.google.com/?q=Medipulse+Hospital+Jodhpur",
+      "https://maps.google.com/?q=Marwar+Hospital+Jodhpur",
+      "https://maps.google.com/?q=Military+Hospital+Jodhpur"
+    ],
+        "hotelName": ["RAAS Jodhpur", "Ajit Bhawan", "Indana Palace"],
+        "hotelLink": [
+          "https://www.raashotels.com",
+          "https://www.ajitbhawan.com",
+          "https://www.indanahotels.com"
+    ],
+    "id": 3
+  },
+  {
+    "monumentName": "Jaisalmer Fort",
+    "img": "https://images.unsplash.com/photo-1710347454810-e3d493dcc538?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SmFpc2FsbWVyJTIwRm9ydHxlbnwwfHwwfHx8MA%3D%3D",
+    "description": "A living fort in the golden city built with yellow sandstone.",
+    "price": "80",
+    "location": "https://www.google.com/maps?q=Jaisalmer+Fort",
+    "exampleImg": [
+      "https://images.unsplash.com/photo-1724382981339-fc22686b8609?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SmFpc2FsbWVyJTIwRm9ydHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1544616751-22115079c818?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEphaXNhbG1lciUyMEZvcnR8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1586612438666-ffd0ae97ad36?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SmFpc2FsbWVyJTIwRm9ydHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1661963285656-f91dff9f6566?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SmFpc2FsbWVyJTIwRm9ydHxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "hotelName": ["Suryagarh", "Tokyo Palace", "Desert Tulip"],
+    "hotelLink": [
+      "https://www.suryagarh.com",
+      "https://www.tokyopalacehotel.com",
+      "https://www.deserttuliphotel.com"
+    ],
+    "hospitalName": [
+    "Priya Hospital",
+    "Dream Hospital",
+    "Shri Maheshwari Hospital"
+],
+
+    "hospitalLink": [
+      "https://maps.google.com/?q=Priya+Hospital+Jaisalmer",
+      "https://maps.google.com/?q=Dream+Hospital+Jaisalmer",
+      "https://maps.google.com/?q=Maheshwari+Hospital+Jaisalmer"
+],
+    "id": 4
+  },
+  {
+    "monumentName": "City Palace Jaipur",
+    "img": "https://images.unsplash.com/photo-1667099639128-4b10f464f4a2?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2l0eSUyMFBhbGFjZSUyMEphaXB1cnxlbnwwfHwwfHx8MA%3D%3D",
+    "description": "A royal palace showcasing a blend of Mughal and Rajasthani architecture.",
+    "price": "150",
+    "location": "https://www.google.com/maps?q=City+Palace+Jaipur",
+    "exampleImg": [
+      "https://images.unsplash.com/photo-1716534133704-5a5c2a9c7512?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2l0eSUyMFBhbGFjZSUyMEphaXB1cnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1716534134003-ba47907e119b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Q2l0eSUyMFBhbGFjZSUyMEphaXB1cnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://media.istockphoto.com/id/469470002/photo/city-palace-jaipur-with-chandra-mahal.webp?a=1&b=1&s=612x612&w=0&k=20&c=hoyqU-0FBoHA8q53IsNoopiP-_mU6TmwgGjueOJ736M="
+    ],
+    "hotelName": ["Raj Palace", "ITC Rajputana", "Holiday Inn"],
+    "hotelLink": [
+      "https://www.rajpalace.com",
+      "https://www.itchotels.com",
+      "https://www.ihg.com"
+    ],
+    "hospitalName": [
+    "City Hospital",
+    "Rajdhani Hospital",
+    "Gangori Hospital"
+],
+
+    "hospitalLink": [
+      "https://maps.google.com/?q=City+Hospital+Jaipur",
+      "https://maps.google.com/?q=Rajdhani+Hospital+Jaipur",
+      "https://maps.google.com/?q=Gangori+Hospital+Jaipur"
+],
+    "id": 5
+  },
+  {
+    "monumentName": "Chittorgarh Fort",
+    "img": "https://images.unsplash.com/photo-1710912119115-eeb1dfa1e8fa?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A historic fort symbolizing Rajput bravery and sacrifice.",
+    "price": "50",
+    "location": "https://www.google.com/maps?q=Chittorgarh+Fort",
+    "exampleImg": [
+      "https://images.unsplash.com/photo-1710912119115-eeb1dfa1e8fa?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://thegoodlifewithiq.com/wp-content/uploads/2019/03/Chittor-final-17.jpg",
+      "https://th-thumbnailer.cdn-si-edu.com/ExuZagw_qysyC7fuBZ0IXEUr3gI=/fit-in/1072x0/https://tf-cmsv2-photocontest-smithsonianmag-prod-approved.s3.amazonaws.com/54e5b81f-ff9d-4b15-b030-6e48c43909c8.jpg"
+    ],
+    "hotelName": ["Hotel Padmini", "Pratap Palace", "Castle Bijaipur"],
+    "hotelLink": [
+      "https://www.makemytrip.com",
+      "https://www.pratappalace.com",
+      "https://www.castlebijaipur.com"
+    ],
+    "hospitalName": [
+    "District Hospital Chittorgarh",
+    "Mewar Hospital",
+    "Akshar Hospital"
+],
+
+    "hospitalLink": [
+      "https://maps.google.com/?q=District+Hospital+Chittorgarh",
+      "https://maps.google.com/?q=Mewar+Hospital+Chittorgarh",
+      "https://maps.google.com/?q=Akshar+Hospital+Chittorgarh"
+],
+    "id": 6
+  },
+  {
+    "monumentName": "Nahargarh Fort",
+    "img": "https://images.unsplash.com/photo-1653495484044-479eeabe94ab?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A scenic fort overlooking Jaipur famous for sunset views.",
+    "price": "60",
+    "location": "https://www.google.com/maps?q=Nahargarh+Fort",
+    "exampleImg": [
+      "https://images.unsplash.com/photo-1648217516771-74a081268aac?q=80&w=673&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1697730296129-eb26df35b40b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TmFoYXJnYXJoJTIwRm9ydHxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1653495483840-653fc125c3c0?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TmFoYXJnYXJoJTIwRm9ydHxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "hotelName": ["Fairmont Jaipur", "Shahpura House", "Alsisar Haveli"],
+    "hotelLink": [
+      "https://www.fairmont.com",
+      "https://www.shahpurahouse.com",
+      "https://www.alsisar.com"
+    ],
+    "hospitalName": [
+    "Gangori Hospital",
+    "City Hospital",
+    "Bharat Hospital"
+],
+
+    "hospitalLink": [
+      "https://maps.google.com/?q=Gangori+Hospital+Jaipur",
+      "https://maps.google.com/?q=City+Hospital+Jaipur",
+      "https://maps.google.com/?q=Bharat+Hospital+Jaipur"
+],
+    "id": 7
+  },
+  {
+    "monumentName": "Ranakpur Jain Temple",
+    "img": "https://plus.unsplash.com/premium_photo-1697730481640-114d8546ef3d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "A beautiful marble temple with 1444 uniquely carved pillars.",
+    "price": "40",
+    "location": "https://www.google.com/maps?q=Ranakpur+Jain+Temple",
+    "exampleImg": [
+      "https://media.istockphoto.com/id/157571439/photo/adinatha-temple-in-ranakpur-india.webp?a=1&b=1&s=612x612&w=0&k=20&c=0rfe1evNm-E190tTi0-LEKZDNdntWLTP0dxv9MmaGsA=",
+      "https://plus.unsplash.com/premium_photo-1697729579479-e8a3be6ccf98?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8UmFuYWtwdXIlMjBKYWluJTIwVGVtcGxlfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1675081308368-6ce9be87553c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8UmFuYWtwdXIlMjBKYWluJTIwVGVtcGxlfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1597078804310-7dfe09d55fdc?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UmFuYWtwdXIlMjBKYWluJTIwVGVtcGxlfGVufDB8fDB8fHww"
+    ],
+    "hotelName": ["Mana Hotels", "Fateh Bagh", "The Aodhi"],
+    "hotelLink": [
+      "https://www.manahotels.in",
+      "https://www.fatehbagh.com",
+      "https://www.aodhi.com"
+    ],
+    "hospitalName": [
+    "Sadri Government Hospital",
+    "Mewar Hospital Udaipur",
+    "Global Hospital Mount Abu"
+],
+
+    "hospitalLink": [
+      "https://maps.google.com/?q=Sadri+Government+Hospital",
+      "https://maps.google.com/?q=Mewar+Hospital+Udaipur",
+      "https://maps.google.com/?q=Global+Hospital+Mount+Abu"
+],
+    "id": 8
+  },
+  {
+    "monumentName": "Kumbhalgarh Fort",
+    "img": "https://plus.unsplash.com/premium_photo-1697730385162-fa617cfd46d8?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8S3VtYmhhbGdhcmglMjBGb3J0fGVufDB8fDB8fHww",
+    "description": "A massive fort with the second longest wall in the world.",
+    "price": "70",
+    "location": "https://www.google.com/maps?q=Kumbhalgarh+Fort",
+    "exampleImg": [
+      "https://images.unsplash.com/photo-1651739312933-9026620a78a5?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8S3VtYmhhbGdhcmglMjBGb3J0fGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1707897315193-944781abacbc?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8S3VtYmhhbGdhcmglMjBGb3J0fGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1710910510424-3743397ef4b9?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8S3VtYmhhbGdhcmglMjBGb3J0fGVufDB8fDB8fHww"
+    ],
+    "hotelName": ["The Aodhi", "Kumbha Bagh", "Mahua Bagh"],
+    "hotelLink": [
+      "https://www.aodhi.com",
+      "https://www.kumbhabagh.com",
+      "https://www.mahuabagh.com"
+    ],
+    "hospitalName": [
+    "Kelwara Government Hospital",
+    "Mewar Hospital Rajsamand",
+    "GBH American Hospital Udaipur"
+],
+
+    "hospitalLink": [
+      "https://maps.google.com/?q=Kelwara+Government+Hospital",
+      "https://maps.google.com/?q=Mewar+Hospital+Rajsamand",
+      "https://maps.google.com/?q=GBH+American+Hospital+Udaipur"
+],
+    "id": 9
+  }
+]

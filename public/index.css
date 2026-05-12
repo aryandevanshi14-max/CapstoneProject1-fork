@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* color: #fd6e00; */
+    background-color: antiquewhite;
+}
+
+nav {
+    background-color: rgb(255, 153, 0);
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: rgb(255, 153, 0);
+    cursor: pointer;
+    font-size: 20px;
+    border-style: none;
+    padding: 12px;
+    color: antiquewhite;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background-color: #FFC107;
+    box-shadow: 0 0 20px #FFC107;
+    text-shadow: 0 0 5px #fd0000;
+    transition: 0.3s;
+}
+
+
+/* nav a:nth-child(1) {
+    background-color: aquamarine;
+} */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #faf36b;
+    padding: 5%;
+    background-image: url('heroComponentImage.webp');
+    background-size: cover;
+    background-position: center;
+    font-size: 8vw;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+    min-height: 50vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 69px;
+    font-size: xxx-large;
+    color: #fd6e00;
+    text-shadow: 0 0 20px #cea60d;
+}
+
+main {
+    display: flex;
+    /* border-radius: 18px; */
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 84%;
+    gap: 30px;
+}
+
+main .card {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fd6e00;
+    padding: 15px;
+    border: 2px solid rgb(124 121 121);
+    text-align: center;
+    border-radius: 18px;
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+main .card img {
+    border-radius: 4px;
+    width: 255px;
+    height: 165px;
+    object-fit: cover;
+}
+
+main .card a {
+    text-decoration: none;
+    border-style: none;
+    font-size: large;
+    padding: 8px;
+    border-radius: 18px;
+    background-color: rgb(255, 153, 0);
+    color: white
+}
+
+main .card :hover {
+    background-color: #FFC107;
+    box-shadow: 0 0 20px #FFC107;
+    /* text-shadow: 0 0 5px #fd0000; */
+    border-radius: 18px;
+    transition: 0.2s;
+}
+
+footer {
+    min-height: 50px;
+    background-color: rgb(255, 153, 0);
+    margin-top: 112px;
+}
+
+footer>a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(255, 153, 0);
+    color: antiquewhite;
+    padding: 12px;
+}
+
+footer>a:hover {
+    background-color: #FFC107;
+    box-shadow: 0 0 20px #FFC107;
+    text-shadow: 0 0 5px #fd0000;
+    transition: 0.3s;
+}
+
+.plus {
+    position: fixed;
+    bottom: 1px;
+    right: 1.5vw;
+    border: 1px solid black;
+    background-color: #FFC107;
+    border-radius: 100px;
+}
+
+.plus :hover {
+    background-color: #FFC107;
+    box-shadow: 0 0 20px #FFC107;
+    border-radius: 100px;
+    transition: 0.3s;
+}
+
+
+/* Dark Mode Styles */
+
+body.dark {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+body.dark .card {
+    background-color: #1e1e1e;
+    border-color: #444;
+    color: #f1f1f1;
+}
+
+body.dark .card-title,
+body.dark .card-text {
+    color: #f1f1f1;
+}
+
+body.dark nav,
+body.dark footer {
+    background-color: #1a1a1a !important;
+}
+
+body.dark input {
+    background-color: #2a2a2a;
+    color: white;
+    border-color: #555;
+}
+
+
+/* Better Card Hover Effect */
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Smooth Search Input Focus */
+
+#searchInput:focus {
+    border-color: #ff6b35;
+    box-shadow: 0 0 8px rgba(255, 107, 53, 0.4);
+}
+
+
+/* Dark Mode Button Hover */
+
+#darkModeBtn:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+}
