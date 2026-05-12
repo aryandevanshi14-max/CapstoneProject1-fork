@@ -21,8 +21,14 @@ async function getData() {
 
     //main component
     document.getElementById('mainComponent').innerHTML = `<article>
+                <div class="description"
                 <h1>Description</h1>
+                </div>
+
+                <div class="descriptioninfo">
                 ${data.description}
+                </div>
+
                 <div id='exampleImgComponent'>
                 </div>
             </article>
@@ -30,7 +36,8 @@ async function getData() {
                 <ul class="fort">
                     <li class="listHeading">Monument Detail</li>
                     <li>Price: ${data.price} Rs</li>
-                    <li class="listContent">Location: <a href=${data.location}><img src="location.svg" alt=""></a></li>
+                    <li class="listContent">Location: <a href=${data.location}>
+                    <img class="locationicon" src="location.svg" alt=""></a></li>
                 </ul>
                 <ul class="hotel" id="hotelComponent">
                     <li class="listHeading">Hotel Detail</li>
@@ -38,12 +45,14 @@ async function getData() {
                 <ul class="hospital" id="hospitalComponent">
                     <li class="listHeading">Hospital Detail</li>
                 </ul>
-                <ul>
+                <ul class="emergency">
                     <li class="listHeading">Emergency</li>
                     <li class="listContent">Police No. - 100</li>
                     <li class="listContent">Ambulance No. - 108</li>
                 </ul>
                 </aside> `
+
+
     let exampleImgArray = data.exampleImg;
 
     for (let index = 0; index < exampleImgArray.length; index++) {
@@ -51,13 +60,11 @@ async function getData() {
         const exampleImgLink = exampleImgArray[index];
         document.getElementById('exampleImgComponent').innerHTML +=`
         
-        <a href=${exampleImgLink}><img src=${exampleImgLink} alt="" width="255px" height="165px"></a>`
+        <a href=${exampleImgLink}>
+        <img class="eximg" src=${exampleImgLink} alt="" width="255px" height="165px"></a>`
         
 
     }
-
-
-
 
 
     let hotelNameArray = data.hotelName;
@@ -68,7 +75,8 @@ async function getData() {
         const hotelLink = hotelLinkArray[index];
         document.getElementById('hotelComponent').innerHTML +=`
         <li>Hotel Name: ${hotelName}</li>
-        <li class="listContent">Hotel Website: <a href=${hotelLink}><img src="link.svg" alt=""></a></li>`
+        <li class="listContent">Hotel Website: <a href=${hotelLink}>
+        <img class="linkicon" src="link.svg" alt=""></a></li>`
         
 
     }
@@ -80,7 +88,8 @@ async function getData() {
         const hospitalLink = hospitalLinkArray[index];
         document.getElementById('hospitalComponent').innerHTML +=`
         <li>Hospital Name: ${hospitalName}</li>
-        <li class="listContent">Hospital Website: <a href=${hospitalLink}><img src="link.svg" alt=""></a></li>`
+        <li class="listContent">Hospital Website: <a href=${hospitalLink}>
+        <img class="linkicon"src="link.svg" alt=""></a></li>`
         
 
     }

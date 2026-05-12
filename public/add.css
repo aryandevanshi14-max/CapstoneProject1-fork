@@ -30,14 +30,18 @@ nav a:nth-child(2) {
 
 
 .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #faf36b;
-    padding: 170px;
+    padding: 5%;
     background-image: url('heroComponentImage.webp');
     background-size: cover;
     font-size: 80px;
     font-weight: 900;
     text-align: center;
     text-shadow: 2px 2px 5px red;
+    min-height: 50vh;
 }
 
 h1 {

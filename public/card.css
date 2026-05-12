@@ -3,6 +3,22 @@
     padding: 0;
 }
 
+body{
+    background-color: antiquewhite;
+}
+
+.description{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin-bottom: 10px;
+            /* font-weight: bold; */
+            font-size: 32px;
+            color: rgb(255, 153, 0);
+}
+
+.descriptioninfo{
+            margin-bottom: 20px;
+}
+
 nav {
     background-color: rgb(255, 153, 0);
     display: flex;
@@ -14,52 +30,144 @@ nav a {
     cursor: pointer;
     font-size: 20px;
     border-style: none;
-    padding: 11px;
-    color: white;
-
+    padding: 12px;
+    color: antiquewhite;
+    font-weight: 500;
 }
 
 nav a:hover {
-    background-color: #dfa54e;
+    background-color: #FFC107;
+    box-shadow: 0 0 20px #FFC107;
+    text-shadow: 0 0 5px #fd0000;
+    transition: 0.3s;
 }
 
-nav a:nth-child(2){
-    background-color: #dfa54e;
+/* nav a:nth-child(1) {
+    background-color: aquamarine;
+} */
+
+footer {
+    min-height: 50px;
+    background-color: rgb(255, 153, 0);
+    margin-top: 112px;
 }
 
+footer>a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(255, 153, 0);
+    color: antiquewhite;
+    padding: 12px;
 
+}
 
+footer>a:hover {
+    background-color: #FFC107;
+    box-shadow: 0 0 20px #FFC107;
+    text-shadow: 0 0 5px #fd0000;
+    transition: 0.3s;
+
+}
 
 .hero {
+    display: flex;
+    align-items: center;
     color: #faf36b;
-    padding: 344px;
-    
+    padding: 5%;
+    min-height: 50vh;
+    object-fit: cover;
     background-size: cover;
-    font-size: 80px;
+    background-position: center;
+    font-size: 8vw;
     font-weight: 900;
     text-align: center;
     text-shadow: 2px 2px 5px red;
     background-repeat: no-repeat;
 }
 
+.fort .listHeading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: rgb(255, 153, 0);
+}
+
+.hotel .listHeading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: rgb(255, 153, 0);
+}
+
+.hospital .listHeading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: rgb(255, 153, 0);
+}
+
+.emergency .listHeading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: rgb(255, 153, 0);
+}
+
+.eximg {
+    border-radius: 4px;
+    width: 255px;
+    height: 165px;
+    object-fit: cover;
+    margin: 8px 8px;
+}
+
+.eximg:hover {
+    background-color: #FFC107;
+    box-shadow: 0 0 20px #FFC107;
+    border-radius: 18px;
+    transition: 0.2s;
+}
+
+.linkicon:hover {
+    /* background-color: #FFC107; */
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 4px orange);
+    /* box-shadow: 0 0 20px #FFC107; */
+    border-radius: 18px;
+    transition: 0.2s;
+}
+
+.locationicon:hover {
+    /* background-color: #FFC107; */
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 4px orange);
+    /* box-shadow: 0 0 20px #FFC107; */
+    border-radius: 18px;
+    transition: 0.2s;
+}
 
 main{
     display: flex;
+    flex-wrap: wrap;
 }
 
 main article{
-    border: 2px solid black;
-    width: 70vw;
-    padding: 30px;
+    border-bottom: 2px solid rgb(255, 153, 0);
+    width: 100%;
+    padding: 20px;
     font-size: large;
 }
 
-
-
 main aside{
-    border: 2px solid black;
-    padding: 40px;
-    width: 30vw;
+    /* border: 2px solid black; */
+    padding: 20px;
+    width: 100%;
 }
 
 main aside li{
@@ -68,9 +176,10 @@ main aside li{
 }
 
 main aside .listHeading{
-    font-weight: bolder;
+    /* font-weight: bolder; */
     font-size: xx-large;
 }
+
 main aside ul{
     margin: 25px;
     font-size: larger;
