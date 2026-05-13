@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body{
+body {
     /* color: #fd6e00; */
     background-color: antiquewhite;
 }
@@ -31,11 +31,10 @@ nav a:hover {
     transition: 0.3s;
 }
 
+
 /* nav a:nth-child(1) {
     background-color: aquamarine;
 } */
-
-
 
 .hero {
     display: flex;
@@ -82,7 +81,7 @@ main .card {
     font-weight: 400;
 }
 
-main .card img{
+main .card img {
     border-radius: 4px;
     width: 255px;
     height: 165px;
@@ -99,14 +98,13 @@ main .card a {
     color: white
 }
 
-main .card :hover{
+main .card :hover {
     background-color: #FFC107;
     box-shadow: 0 0 20px #FFC107;
     /* text-shadow: 0 0 5px #fd0000; */
     border-radius: 18px;
     transition: 0.2s;
 }
-
 
 footer {
     min-height: 50px;
@@ -122,7 +120,6 @@ footer>a {
     background-color: rgb(255, 153, 0);
     color: antiquewhite;
     padding: 12px;
-
 }
 
 footer>a:hover {
@@ -130,7 +127,6 @@ footer>a:hover {
     box-shadow: 0 0 20px #FFC107;
     text-shadow: 0 0 5px #fd0000;
     transition: 0.3s;
-
 }
 
 .plus {
@@ -147,4 +143,63 @@ footer>a:hover {
     box-shadow: 0 0 20px #FFC107;
     border-radius: 100px;
     transition: 0.3s;
+}
+
+
+/* Dark Mode Styles */
+
+body.dark {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+body.dark .card {
+    background-color: #1e1e1e;
+    border-color: #444;
+    color: #f1f1f1;
+}
+
+body.dark .card-title,
+body.dark .card-text {
+    color: #f1f1f1;
+}
+
+body.dark nav,
+body.dark footer {
+    background-color: #1a1a1a !important;
+}
+
+body.dark input {
+    background-color: #2a2a2a;
+    color: white;
+    border-color: #555;
+}
+
+
+/* Better Card Hover Effect */
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Smooth Search Input Focus */
+
+#searchInput:focus {
+    border-color: #ff6b35;
+    box-shadow: 0 0 8px rgba(255, 107, 53, 0.4);
+}
+
+
+/* Dark Mode Button Hover */
+
+#darkModeBtn:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
+    transition: all 0.2s ease;
 }
